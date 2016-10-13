@@ -4,12 +4,12 @@ this is a .net core application that can redirect an incoming url to a local add
 
 ## to set this up on windows - other platforms will be similar
 
-1) install the .net core hosting for windows (or flavor of platform)
-2) point a domain to 127.0.0.1 in the hosts file
+1. install the .net core hosting for windows (or flavor of platform)
+2. point a domain to 127.0.0.1 in the hosts file
     ie: 127.0.0.1     pdxcodebits.com
-3) build and deploy 
-4) spin up a site on port 80 pointing at the deploy
-5) add bindings for sites you want to support
+3. build and deploy 
+4. spin up a site on port 80 pointing at the deploy
+5. add bindings for sites you want to support
     ie: site->edit bindings. add pdxcodebits.com
 
 Todo: move the hard coded redirect in Startup.cs to configuration where you could add and remove sites and where they redirect to
