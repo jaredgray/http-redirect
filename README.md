@@ -12,4 +12,6 @@ this is a .net core application that can redirect an incoming url to a local add
 5. add bindings for sites you want to support
     ie: site->edit bindings. add pdxcodebits.com
 
-Todo: move the hard coded redirect in Startup.cs to configuration where you could add and remove sites and where they redirect to
+After the above steps are complete, to congigure this app, 
+modify the applicationsettings.json and add your own mappings.
+the configuration should be self explanitory - file a bug if not.
